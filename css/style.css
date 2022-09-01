@@ -1,0 +1,174 @@
+body{font-family: Arial, Helvetica, sans-serif; heigh; height:fit-content; margin: 0;}
+.header{width:100%; height:50px; background: rgb(57, 53, 64); left:0; position: fixed; opacity:0.8; overflow: auto; z-index: 1;}
+.header li{display: inline-block; color: rgb(55, 55, 205); font-size: 20px; margin-left: 25px;}
+.logo{height:50px; width:75px; margin-left: 90px;}
+.listheader{list-style: none; float: right; margin-right:110px;}
+.linkheader{color:rgb(255, 255, 255); cursor: pointer; position: relative; text-decoration: none;}
+.linkheader1{text-decoration: none; color: white; cursor: pointer; position: relative;}
+.linkheader1::after{content: ""; width:0;height:3px;position: absolute; bottom: 0;left: 0; transition: 0.6s; background-color: red; margin-bottom: -5px;}
+.linkheader1:hover::after{width:100%; }
+.home-line{height:3px; width:50px; background: red; display: block; position: absolute; margin-left: 25px;}
+
+.wallpaper{background-image: url(../images/car\ 2.Jpg); height: 100vh;overflow: auto; position: relative; background-size: cover;}
+.overlay-pg1{background-color: rgb(0,0,0,0.65); width: 100% ;height:100vh;position: absolute; top: 0; left:0;}
+.content-pg1{position: absolute;top:50%;left: 50%; transform:translate(-50%,-50%); text-align: center; width:70%;}
+.h1-pg1{color:white; font-size:55px;}
+.para-pg1{color:wheat; font-size: 18px; margin-top: -35px; letter-spacing: 1px;}
+.btn1-pg1{width:155px; height:60px; border-radius: 6.5px; cursor: pointer; font-size:18px; margin-top: -10px; background: rgb(255, 255, 255,0.6)}
+.btn2-pg1{width:155px; height:60px; border-radius: 6.5px;cursor: pointer; background: rgb(126, 126, 229,0.6); font-size: 18px; margin:-10px 6.5px;}
+
+.h1-pg2{text-align: center; font-size: 2.5rem; margin-top: 140px;}
+.sp-pg2{display: block; background: blue; width:70px; height:4.5px; margin: -20px auto;}
+.page2{height: 60vh;}
+.container-pg2{overflow: auto; width:80%; margin: 115px auto;}
+.container-pg2 div{border: solid 1px black; width:350px; height:230px; text-align: center; float: left; position: relative; z-index: 1;}
+.container-pg2 i{display:block; text-align: center; font-size: 1.8rem; color: rgb(107, 107, 181); margin-top: 25px;}
+.container-pg2 p{color:grey; letter-spacing: 1.7px;}
+.container-pg2 a{text-decoration: none; font-size: 18.5px; color: rgb(111, 111, 253);}
+.container-pg2 .div2-pg2{margin-left: 75px;}
+.container-pg2 .div3-pg2{margin-left: 75px;}
+.container-pg2 div::after{content:" "; position:absolute; height:0; width:0; top:0; left:0; background: black; opacity:0.8; transition:0.8s; z-index: -1;}
+.container-pg2 div:hover::after{height: 100%; width:100%;}
+.div1-pg2:hover .h2-pg2,.div2-pg2:hover .h3-pg2,.div3-pg2:hover .h4-pg2{color: white;}
+.container-pg2 h2{transition:1s;}
+
+.page3{ background: rgb(211, 209, 209); height: 1000px; padding:50px 0;}
+.head-pg3{text-align: center; font-size: 2.5rem;}
+.sp-pg3{display: block; height:4.5px; width:70px; background: blue; margin:-20px auto;}
+.parent-pg3{margin-top: -90px;}
+.container1-pg3{overflow: auto; width:90%; margin:140px auto; }
+.container2-pg3{overflow: auto; width:90%; margin: auto;}
+.div1-pg3,.div2-pg3,.div3-pg3,.div4-pg3,.div5-pg3,.div6-pg3{border:1px solid black; width:23%; height:330px; float: left; position: relative;}
+.div2-pg3,.div3-pg3, .div5-pg3,.div6-pg3{margin-left: 160px;}
+.div1-pg3,.div4-pg3{margin-left: 55px;}
+.img-pg3{height:100%; width: 100%;}
+.layer-pg3{background:rgba(0,0,0,0.7); position: absolute;top: 0; bottom:0;left:0;right: 0; 
+    width:100%; height: 100%; visibility: hidden; opacity:0; transition: opacity 1.5s;}
+.layer-info-pg3{text-align: center; width:100%; position: absolute; top:50%; left:50%; transform:translate(-50%,-50%); }
+.page3 a{background-color: rgb(137, 137, 226); font-size: 1.2rem; padding:4.5px;
+    color:rgb(40, 39, 39); margin-top:-10px; transition-delay: 0.7s;text-decoration: none;}
+.category{font-size: 1.3rem; color: rgb(153, 153, 249); text-transform:uppercase; transition-delay:0.2s ;}
+.para-pg3{color: white; letter-spacing: 1px; font-size: 1.3rem; margin-top: 5px; transition-delay: 0.4s;}
+.div1-pg3:hover .layer-pg3, .div2-pg3:hover .layer-pg3, .div3-pg3:hover .layer-pg3,
+.div4-pg3:hover .layer-pg3, .div5-pg3:hover .layer-pg3, .div6-pg3:hover .layer-pg3{visibility: visible; opacity:1; transition: 1.6s;}
+
+.page4{padding:60px 0; height:650px;}
+.head-pg4{text-align: center;}
+.offer{font-size: 2.5rem;}
+.sp-pg4{display: block; height:4.5px; width:70px; background: blue; margin:-20px auto;}
+.container1-pg4, .container2-pg4{width:90%; margin:auto;}
+.div1-pg4, .div2-pg4, .div3-pg4,
+.div4-pg4, .div5-pg4, .div6-pg4{border:solid 2px rgb(199, 198, 198); width:24%; height:150px; float:left; padding:20px; position: relative; z-index: 1;}
+.div2-pg4, .div5-pg4{margin:0 9%;}
+.container2-pg4{margin-top: 270px;}
+.container-pg4{padding:95px 0;}
+.container-pg4 i{font-size: 32px; color: rgb(80, 80, 172); position: absolute; top:20px; left:15px;}
+.sp1-pg4{font-size: 25px; font-weight: bold; margin-left: 57px;}
+.para-pg4{color: gray; font-size: 18px; text-align:justify; margin-left: 60px; line-height: 25px;}
+.container1-pg4 div::after, .container2-pg4 div::after{content:""; position:absolute; 
+    top:0; left:0; height:0; width:0; opacity:0.8; transition:0.3s; z-index:-1; background: black;}
+    .container1-pg4 div::before, .container2-pg4 div::before{content:""; position:absolute; 
+        bottom:0; right:0; height:0; width:0; opacity:0.8; transition:0.3s; z-index:-1; background: black;}
+.container1-pg4 div:hover::after, .container2-pg4 div:hover::after{width:100%; height:50%;}
+.container1-pg4 div:hover .sp1-pg4, .container2-pg4 div:hover .sp1-pg4{color:white;}
+.container1-pg4 div:hover::before, .container2-pg4 div:hover::before{width:100%; height:50%;}
+
+.page5{padding:60px 0; background: rgb(245, 242, 237); height: 520px;}
+.container-pg5{width:80%; margin: auto; overflow: auto;}
+.div1-pg5, .div2-pg5{float:left; width:45%;}
+.div2-pg5{margin:0 3%; padding:20px 0;}
+.sp-pg5{height:4.5px; width:60px; background: blue; display: block; margin:-10px 0;}
+.para-pg5{font-size: 19px; color:rgb(90, 87, 87); margin-top:40px;}
+.page5 i{display: block; color: blue; font-size: 1.5rem; line-height: 40px;}
+.sp1-pg5{color:gray;}
+.img-pg5{margin-left:100px;}
+.page5 ul{list-style: none; text-align: center;}
+.page5 li{font-size: 25px; display:inline-block; width:10px;height: 10px; border-radius: 10px; background-color: rgb(186, 186, 186); margin:0 5.5px;}
+#active-pg5{background-color: blue;}
+.page5 li:hover{background-color: blue;}
+
+.page6{height:350px;}
+.img-pg6{background-image: url(../images/Sales\ MB\ dealer\ web.jpg); height:380px; background-attachment: fixed; position: relative; background-size: cover;}
+.page6 i{color:blue; font-size:35px;}
+.overlay-pg6{height:100%; background-color: rgba(0,0,0,0.6);}
+.container-pg6{width:75%; margin:auto; position: absolute; top:50%; left:50%; transform: translate(-50%,-50%);}
+.container-pg6 div{float:left; width:15%; text-align: center; line-height: 5px; margin:0 5%;}
+.container-pg6 h2{color:white; font-size: 2rem;}
+.container-pg6 sp{color:white; font-size: 1.1rem;}
+
+.page7{height:560px; background-color: rgb(216, 212, 212); padding:90px 0;}
+.head-pg7{text-align: center; font-size: 1.7rem;}
+.sp-head-pg7{display: block; height:4.5px; width:70px; background: blue; margin:-22px auto;}
+.container-pg7{width:80%; margin:85px auto; overflow: auto;}
+.container-pg7 div{border:solid 1px grey; float: left; width:28%; text-align: center; height:360px; position: relative; z-index: 1;}
+.div2-pg7{margin:0 7.5%;}
+.ul-pg7{list-style: none; color: rgb(87, 85, 85); line-height: 30px; margin-left: -40px;}
+.plan{text-transform: uppercase; color:gray; font-size: 18px; transition: 1s;}
+.dollar{border: solid 2px blue;font-size: 40px;width:80px; height: 80px; border-radius: 50%; margin: auto; padding: 15px;}
+.sp1-pg7{font-size:25px;}
+.btn-pg7{border:blue solid 2px; height: 30px; width: 120px; text-align: center; background-color: white; cursor: pointer;}
+.container-pg7 div::after{content:""; position: absolute; top: 0; left: 0; width: 100%; height: 0; transition: 0.8s; background: rgb(0,0,0,0.5); z-index: -1;}
+.container-pg7 div:hover::after{width:100%; height: 100%;}
+.container-pg7 div:hover .plan{color: rgb(101, 34, 34);}
+.container-pg7 div:hover .dollar{color:rgb(101, 34, 34); transition-delay: 0.2s;}
+
+.page8{height:350px; background-color: antiquewhite; position: relative;}
+.img-pg8{background-image: url(../images/tesla.jpg); background-size: cover; background-attachment: fixed; height: 100%;}
+.overlay-pg8{background-color: rgb(0,0,0,0.6); height: 100%;}
+.container-pg8{overflow: auto; width:80%; position: absolute; top:50%;left:55%;transform:translate(-50%,-50%) ;}
+.div1-pg8, .div2-pg8{float: left; width:40%;}
+.div2-pg8{margin:0 10%;}
+.para-pg8{color:white;}
+.john{display: inline; color: white;margin-bottom: 40px; font-size: 29px;}
+.sp-pg8{ color: blue; display: block;}
+.img1-pg8{border-radius: 100px;}
+.content-div-pg8{overflow: auto;}
+.imgg-pg8, .nametag{float:left}
+.nametag{margin:15px 15px; line-height: 35px;}
+
+.page9{ height: 480px; padding:60px 0;}
+.page9 a{color:white;font-size: 15px;display: block; background-color: rgb(149, 139, 255); width:15%; margin-left: auto; height: 20%;}
+.page9 i{line-height: 40px;}
+.head-pg9{text-align: center; font-size: 1.7rem;}
+.sp-head-pg9{display: block; height:4.5px; width:70px; background: blue; margin:-27px auto;}
+.container-pg9{width:85%; margin:100px auto;}
+.div1-pg9, .div2-pg9, .div3-pg9{float: left; width: 22%; background-color:#ccd0a0; padding: 17px 14px; text-align: center; position: relative;}
+.div1-pg9{margin-left: 100px;}
+.div2-pg9{margin:0 6%;}
+.img-pg9{width:90%; margin:auto; position: relative; z-index: 0;}
+.team-info{line-height: 8px;}
+.team-info span{color:gray; text-transform: uppercase;}
+.overlay-pg9{background-color: rgb(0,0,0,0.4); position: absolute;top:0;left: 0; width: 100%; height: 100%; z-index: 1; visibility: hidden;}
+.div1-pg9::after,.div2-pg9::after,.div3-pg9::after {content:"";background-color: rgb(0,0,0,0.2); position:absolute; top:0; left:0; width: 100%; height: 0; transition:0.7s;}
+.div1-pg9:hover::after,.div2-pg9:hover::after,.div3-pg9:hover::after {width:100% ;height:100%;}
+.div1-pg9:hover .info-title,.div2-pg9:hover .info-title,.div3-pg9:hover .info-title{color:white;}
+.div1-pg9:hover .info-text,.div2-pg9:hover .info-text,.div3-pg9:hover .info-text{color:blue;}
+.div1-pg9:hover .overlay-pg9,.div2-pg9:hover .overlay-pg9,.div3-pg9:hover .overlay-pg9{visibility: visible;}
+
+.head-pg10{text-align: center; font-size: 1.7rem;}
+.sp-pg10{display: block; height:4.5px; width:70px; background: blue; margin:-27px auto;}
+.container-pg10{width:80%; margin: auto; overflow: auto; padding:90px 0;}
+.div1-pg10, .div2-pg10, .div3-pg10{float:left; width: 26.5%; padding:15px 20px; position: relative;}
+.div2-pg10{margin:0 5%}
+.ul-pg10{list-style: none; margin-left: -55px;}
+.page10 li{display: inline-block; margin-left:15px; color: black;}
+.page10 i{color:blue; font-size: 14px;}
+.page10 a{text-decoration: none; color: blue;}
+.page10 p{text-align: justify;}
+.content-pg10{padding: 15px 0;}
+.div1-pg10::after, .div2-pg10::after, .div3-pg10::after{content:"";position: absolute; top:0; left: 0; height: 0; 
+    width:100%; background: rgb(167, 167, 239,0.4); transition: 0.85s;}
+.div1-pg10:hover::after, .div2-pg10:hover::after, .div3-pg10:hover::after{height:100%;width:100%}
+
+.footer{background: rgb(67, 67, 67); position: relative; width: 100%; height: 300px; margin-top: -105px;}
+.ul-footer{list-style: none; margin-left: -25px; margin-top: 25px;}
+.footer li{ background-color: rgb(111, 111, 228); width: 50px; height: 50px; border-radius: 50%; 
+    display: inline-block; transition: 0.5s; margin-right: 3px; position: relative;}
+.footer i{font-size:22px; color: white; padding:14px 0;}
+.footer-content{position:absolute;top:50%;left:50%;transform: translate(-50%,-50%); text-align: center;}
+.para-footer{margin-left: 25px; color: gray; text-transform: uppercase; font-size: 12px;}
+.img-footer{margin-left:20px;}
+.footer li:hover{width:50px;height:50px; border-radius: 100%; background-color: rgb(67, 67, 242);}
+.footer li::after{content:"";position: absolute; top:0; left:0; background-color: rgb(72, 72, 121,0.5);
+    width:100%; height:100%; border-radius: 20%; visibility: hidden; transition: 0.25s;}
+.footer li:hover::after{width:100%; height:100%; border-radius: 50%; visibility: visible; }
